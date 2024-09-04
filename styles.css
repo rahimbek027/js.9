@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.dataDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+/* users stili */
+.user {
+    flex: 1 1 calc(25% - 20px); 
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.user p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.user a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.user a:hover {
+    text-decoration: underline;
+}
+
+/* Post stili */
+.post {
+    flex: 1 1 calc(50% - 20px); 
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.post h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.post p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Comment stili */
+.comment {
+    flex: 1 1 calc(50% - 20px); 
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.comment p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.comment strong {
+    font-weight: bold;
+    color: #333;
+}
